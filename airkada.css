@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:PT Sans;
+}
+
+.phase{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.phase1{
+    justify-content: flex-start;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
+ div #line1 {
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(15, 153, 15);
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+ div  #line2 {
+    width: 40px;
+    height: 17px;
+    border:3px solid yellow  ;
+    border-radius: 45%;
+    display: inline-block;
+}
+
+
+.phase2 ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-family: PT Sans;
+    
+}
+
+.phase2 ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.toggle{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 25px;
+    display: none;
+
+}
+
+
+
+
+
+#body-top{
+    width: 100%;
+    background-image: url(A-images/business-idea2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 400px;
+    
+
+}
+
+
+.intext{
+    color:yellow;
+    text-align: center;
+    font-size: 30px;
+    padding-top:300px;
+}
+
+.intext b{
+    color: white;
+}
+
+
+
+.font{
+    font-family: PT Sans;
+}
+
+
+.center-text{
+    padding: 30px;
+    text-align:center;
+    color:rgb(15, 153, 15) ;
+    font-size: 25px;
+}
+
+.center-text2{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+}
+
+.center-text3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align:center ;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.center-text-note{
+    display: inline-block;
+    padding-left: 30px;
+    text-align: start;
+}
+
+.center-text-note img {
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+.inner-center-note {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.inner-center-note b {
+    padding: 10px;
+    color:rgb(15, 153, 15) ;
+}
+
+.middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+
+}
+
+
+
+.img-span{
+    background-image: url(A-images/business-idea.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+.span2-text{
+    width: 50%;
+    height: 500px;
+    background: dimgray;
+    flex-wrap: wrap;
+}
+
+.outer-bordering{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right:20px;
+    text-align: center;
+}
+
+.bordering{
+    text-align: center;
+    color: white;
+    background-color:rgb(76, 184, 76) ;
+    padding: 20px;
+    font-size: 20px;
+    font-family: PT Sans;
+
+}
+
+.first{
+    padding-top: 10px;
+    font-family: PT Sans;
+    padding-left: 40px;
+    color: white;
+}
+
+.second{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.middle2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+}
+
+.number{
+    color:rgb(15, 153, 15)  ;
+}
+
+.middle2-text{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+
+.clr{
+    clear: both;
+}
+
+.footer-head{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.footer-head-one{
+
+    padding: 10px;
+}
+
+.min1{
+    padding-left: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+strong{
+    padding-left: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.min3{
+    padding-top: 20px ;
+    padding-bottom: 40px;
+    padding-left: 30px;
+
+}
+
+.btn1{
+    padding-left: 30px;
+    border: 1px solid white;
+
+}
+
+button{
+    color: white;
+    padding: 10px;
+    background:rgb(76, 184, 76);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer-head-two{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.green{
+    background:rgb(76, 184, 76);
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+
+}
+
+.green-in{
+    padding: 20px;
+    color: white;
+    width: fit-content;
+    height: 100px;
+}
+
+
+#clients{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.img-background{
+    background: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
+
+
+.clients-img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+   
+}
+
+
+.rrr{
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 26px; 
+}
+
+.space{
+    padding: 30px;
+}
+
+.ground{
+    background:dimgrey;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.roundtext{
+    display: inline;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+.last-thing{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.last-thing p{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.last-thing p a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.last-thing p i{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.fa-building{
+    color: dimgray;
+    padding-left: 20px;
+
+}
+
+.fa-briefcase{
+    color: dimgray;
+    padding-left: 20px;
+}
+
+.fa-cloud{
+    color: dimgray;
+    padding-left: 20px;
+}
+
+
+
+@media(max-width:767px) {
+    .img-span{
+        width: 100%;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .span2-text{
+        width: 100%;
+        flex-wrap: wrap;
+        height: 500px;
+    }
+    .img-span{
+        height: 550px;
+    }
+    
+    .span2-text{
+        height: 550px;
+    }
+
+    .clients-img  .rrr{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    .toggle{
+        display: block;
+        cursor: pointer;
+        padding-left: 60px;
+        position: sticky;
+        
+    }
+
+    .phase2 ul{
+        flex-direction: column;
+        text-align:right;
+
+    }
+
+
+   .li-elements{
+        display: none;
+        padding: 25px 20px;
+    
+   }
+
+
+
+
+}
+
+
+
+
+
+
+
+
